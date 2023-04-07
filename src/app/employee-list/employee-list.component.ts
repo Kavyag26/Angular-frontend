@@ -25,7 +25,6 @@ export class EmployeeListComponent implements OnInit {
   }
 
   deleteEmployee(id: number) {
-    debugger;
     this.employeeService.deleteEmployee(id)
       .subscribe(
         data => {
